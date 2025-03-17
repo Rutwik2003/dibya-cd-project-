@@ -1,0 +1,49 @@
+/* style.css */
+
+/* Overall body style */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Styling for the tokens list */
+  #tokensList {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  /* Each token entry */
+  .token {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Remove border for the last token */
+  .token:last-child {
+    border-bottom: none;
+  }
+  
+  /* Styling for the intermediate code box */
+  .code-box {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 576px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  }
